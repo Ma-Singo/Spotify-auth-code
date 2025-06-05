@@ -8,9 +8,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      DJANGO_DEBUG: 0
     steps:
-      - env:
-          DJANGO_DEBUG: 0
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Setup Python
