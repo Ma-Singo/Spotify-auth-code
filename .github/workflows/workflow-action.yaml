@@ -1,4 +1,4 @@
-name: 2 First GitHub Action.yaml
+name: 2 GitHub Workflow Action
 on:
   workflow_dispatch:
     push:
